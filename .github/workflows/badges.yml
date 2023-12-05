@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2                # clones your repo
           
-      - uses:
+      - uses: joblo2213/aoc-badges-action@v3
         with:
           userid: 1772886                     # your user id, see setup on how to obtain
           session: ${{ secrets.AOC_SESSION }}    # secret containing session code, see setup on how to obtain
